@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>todo list</title>
+</head>
+<body>
+
+
+    <header>
+        <h1>
+            Todo List App
+        </h1>
+        <h3>
+            Input the tasks below, enter your every day tasks and then delete it when completed.
+        </h3>
+        <hr>
+    </header>
+
+    <div class="container">
+
+        <fieldset class="input">
+            <h3>Input Task</h3>
+            <input type="text" id="key" placeholder="Sr. no">
+            <input type="text" id="value" placeholder="enter your tasks">
+            <button type="submit" id="submit">Insert</button>
+            <p class="edit-text">To edit the tasks enter the task number and new text.</p>
+        </fieldset>
+
+        <fieldset class="list">
+            <br><br/>
+            <h3>Your pending taks, you can only delete task from below.</h3>
+            <div id="tasks"></div>
+        </fieldset>
+
+    </div>
+    
+    <script src="main.js"></script>
+</body>
+</html>

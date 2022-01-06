@@ -1,0 +1,53 @@
+body {
+    font-family: monospace;
+}
+.container {
+    display: flex;
+    justify-content: center;
+}
+header {
+    align-items: center;
+    color: cornflowerblue;
+}
+fieldset {
+    width: 500px;
+    background-color: gray;
+    border: none;
+    border-radius: 10px;
+}
+.input {
+    height: 150px;
+}
+.input > .edit-text {
+    font: italic;
+}
+.list {
+    height: 400px;
+}
+button {
+    font-family: monospace;
+    border: none;
+    border-radius: 5px;
+    background-color: lime;
+    color: white;
+    cursor: pointer;
+}
+
+#key {
+    width: 50px;
+    border: none;
+    border-radius: 5px;
+    height: 20px;
+}
+#value {
+    width: 300px;
+    border: none;
+    border-radius: 5px;
+    height: 20px;
+}
+#submit {
+    height: 20px;
+}
+#tasks {
+    font-family: cursive;
+}
